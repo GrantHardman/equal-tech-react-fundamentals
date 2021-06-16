@@ -1,0 +1,115 @@
+.product-card {
+  display: flex;
+  justify-content: center;
+}
+
+.product-card__info-container {
+  margin: 0 3rem;
+}
+
+select {
+  display: inline-block;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  margin: 1rem;
+}
+
+button {
+  display: inline-block;
+  padding: 1rem 5rem;
+  height: 4.4rem;
+  font-weight: 600;
+  border: none;
+  color: white;
+  background-color: mediumseagreen;
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+.product-card__rating span {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
+.button--heart {
+  display: inline-block;
+  background: #ccc;
+  padding: 1rem;
+  height: 4.4rem;
+  width: 4.4rem;
+  border-radius: 50%;
+  line-height: 4rem;
+  vertical-align: middle;
+  fill: black;
+}
+
+.product-recommendations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.recommended-product-card {
+  margin: 0rem 1rem;
+}
+
+main {
+  max-width: 80%;
+  margin: auto;
+}
+
+.breadcrumbs ul {
+  margin: 0 0 3rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs ul li {
+  display: inline;
+  font-size: 1.4rem;
+}
+
+.breadcrumbs ul li + li:before {
+  content: '>';
+  padding: 1rem;
+}
+
+.breadcrumbs__link {
+  color: black;
+  text-decoration: none;
+}
+
+.breadcrumbs__link:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.breadcrumbs__current-item {
+  color: #aaa;
+}
+
+.review-bar {
+  background-color: #eee;
+  width: 40rem;
+  display: inline-block;
+}
+
+.review-bar-fill {
+  background-color: mediumseagreen;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 1rem;
+}
+
+.flex-container::after {
+  content: '';
+  flex-basis: 320px;
+}
